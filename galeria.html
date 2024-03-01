@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Simon Habibi</title>
+    <style>
+        /* Estilos para a página */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://s.glbimg.com/jo/g1/f/original/2011/07/05/caters_monkey_snapper_03.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 90%;
+            max-width: 600px; /* Limitando a largura para caber na tela do celular */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 24px; /* Reduzindo o tamanho do título */
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Distribui as imagens uniformemente */
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: calc(33.33% - 10px); /* Tamanho igual para todas as imagens com espaço entre elas */
+            max-width: 200px; /* Limitando a largura das imagens */
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Galeria Simon Habibi 🍌</h1>
+        <div class="gallery">
+            <img src="https://i.ibb.co/Csr3QXS/Imagem-do-Whats-App-de-2024-03-01-s-15-12-04-0afb214d.jpg" alt="Imagem 1">
+            <img src="https://i.ibb.co/HGYgG83/Imagem-do-Whats-App-de-2024-03-01-s-15-12-05-af253c31.jpg" alt="Imagem 2">
+            <img src="https://i.ibb.co/mcZnjjd/Imagem-do-Whats-App-de-2024-03-01-s-15-12-05-640aa4b5.jpg" alt="Imagem 3">
+            <img src="https://i.ibb.co/D8fLGyq/Imagem-do-Whats-App-de-2024-03-01-s-15-12-05-a8e06333.jpg" alt="Imagem 4">
+        </div>
+    </div>
+</body>
+</html>
